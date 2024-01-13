@@ -50,13 +50,13 @@ body {
     width: 250px; /* Example width, adjust as needed */
     height: 40px;
     border-radius: 12px;
-    background-color: rgb(207, 204, 29);
+    background-color: rgba(29, 47, 207, 0.473);
     gap: 10px;
     transition: transform 0.2s;
   }
  
   .search button:hover{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(119, 111, 111, 0.808);
     cursor: pointer;
   }
  
@@ -141,7 +141,7 @@ body {
 }
 
 ::placeholder {
-  color: #585757;
+  color: #e7e7e7;
 }
 
 .img_box h3 {
@@ -188,7 +188,7 @@ body {
     width: 90vw;
     height: 40px;
     border-radius: 12px;
-    background-color: rgb(207, 204, 29);
+    background-color: rgb(102, 102, 92);
     gap: 10px;
     transition: transform 0.2s;
   }
@@ -196,11 +196,12 @@ body {
   .button-container2 button {
     width: 90vw;
     height: 40px;
-    margin: 20px;
+    margin-top: 10px;
     border-radius: 12px;
-    background-color: rgb(245, 9, 9);
+    background-color: rgb(2, 165, 38);
     gap: 10px;
     transition: transform 0.2s;
+    align-items:end;
   }
 
   .button-container button:hover {
