@@ -31,7 +31,7 @@ function Login() {
                             value={username}
                             onChange={(e) => setUsername(e.target.value)}
                             type='text'
-                            placeholder='user'
+                        
                         />
                     </div>
                     <div className="input-container">
@@ -41,7 +41,7 @@ function Login() {
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
                             type='password'
-                            placeholder='1234'
+                        
                         />
                     </div>
                     <div className="input-container">
